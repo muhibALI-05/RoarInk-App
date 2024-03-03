@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Roarink",
+    "slug": "roarink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/roarinklogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/roarinklogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/roarinklogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jantaspace.roarink"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b97f227e-a78c-4d8b-bad0-57406253ba43"
+      }
+    },
+    "owner": "jantaspace"
+  }
+}
